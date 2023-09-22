@@ -228,6 +228,10 @@ main > .service {
     margin-right: 10%;
     margin-bottom: 10%;
 }
+
+form > h1 {
+    margin-bottom: 20px;
+}
 /* Akhir Form */
 
 /* Footer */
