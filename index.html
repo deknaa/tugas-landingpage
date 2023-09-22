@@ -121,17 +121,19 @@
         <form>
             <h1>Form</h1>
             <label for="name">Name</label><br>
-                <input type="text" name="name" id="name"><br>
+                <input type="text" name="name" id="name" placeholder="Masukan Nama..."><br>
             <label for="city">City</label><br>
-                <input type="text" name="city" id="city"><br>
+                <input type="text" name="city" id="city" placeholder="Masukan Nama Kota..."><br>
             <label for="email">Email</label><br>
-                <input type="email" name="email" id="email"><br>
+                <input type="email" name="email" id="email" placeholder="Masukan Email..."><br>
             <label for="zip-code">Zip-Code</label><br>
-                <input type="number" name="zip-code" id="zip-code"><br>
-            <label for="" id="check">Dengan ini saya menyatakan data yang diisi pada form ini adalah benar dan telah sesuai</label>
+                <input type="number" name="zip-code" id="zip-code" placeholder="Masukan Zip Code..."><br>
+            <label for="status" id="check">Dengan ini saya menyatakan data yang diisi pada form ini adalah benar dan telah sesuai</label>
                 <input type="checkbox" name="status" id="status"><br>
             <button type="submit" id="submit-form">Submit</button>
-            <div class="warning"></div>
+            <input type="reset" value="Reset" class="reset-btn">
+            <br><br>
+            <div id="warning"></div>
         </form>
     </section>
     <!-- Akhir Form -->
