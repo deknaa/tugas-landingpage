@@ -4,4 +4,9 @@ function handleGetFormData(){
     let email = document.getElementById("email").value;
     let zipCode = document.getElementById("zip-code").value;
     let status = document.getElementById("status").value;
+
+    return {
+        
+    }
 }
+

@@ -91,6 +91,10 @@ main > .service {
     border-radius: 5px;
 }
 
+.btn-konsultasi:hover {
+    background-color: #39b37a;
+}
+
 .under-service {
     display: flex;
     margin-left: 10%;
@@ -220,6 +224,10 @@ main > .service {
     border-radius: 5px;
     font-weight: bold;
 }
+
+.btn-konsul-dokter:hover {
+    background-color: #216869;
+}
 /* Akhir Dokter Terbaik */
 
 /* Form */
@@ -255,6 +263,8 @@ form > h1 {
     cursor: pointer;
     background-color: #216869;
 }
+
+
 /* Akhir Form */
 
 /* Footer */
@@ -312,6 +322,10 @@ footer {
 .wrapper-fitur > a {
     color: white;
     text-decoration: none;
+}
+
+.wrapper-fitur > a:hover {
+    color: #216869;
 }
 
 .wrapper-kontak {
