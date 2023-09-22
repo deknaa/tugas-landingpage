@@ -226,11 +226,34 @@ main > .service {
 #form {
     margin-left: 10%;
     margin-right: 10%;
-    margin-bottom: 10%;
+    margin-bottom: 6%;
+    display: flex;
+    justify-content: center;
 }
 
 form > h1 {
     margin-bottom: 20px;
+    font-size: 30pt;
+}
+
+#check {
+    display: inline-block;
+    width: 200px;
+    margin-top: 10px;
+}
+
+#submit-form {
+    margin-top: 10px;
+    background-color: #49A078;
+    padding: 15px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+#submit-form:hover {
+    cursor: pointer;
+    background-color: #216869;
 }
 /* Akhir Form */
 
