@@ -1,0 +1,318 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* navbar */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #49A078;
+    color: white;
+}
+
+header > img {
+    margin-left: 10%;
+    margin-top: 20px;
+}
+
+.wrapper-header {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+ul {
+    display: flex;
+    gap: 25px;
+    list-style-type: none;
+    margin-top: 5%;
+}
+
+#link {
+    text-decoration: none;
+    color: white;
+}
+/* Akhir navbar */
+
+/* content */
+.flex-container-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#description {
+    margin-bottom: 5%;
+    color: white;
+}
+
+main {
+    padding-top: 5%;
+    background-color: #49A078;
+}
+
+main > .service {
+    display: flex;
+    justify-content: left;
+    gap: 47px;
+    margin-left: 10%;
+}
+
+.service > h3 {
+    font-size: 25pt;
+    color: white;
+}
+
+.service > p {
+    color: white;
+}
+
+.content-1 {
+    width: 50%;
+}
+
+.content-1 > h2 {
+    font-size: 70pt;
+    color: white;
+}
+
+.content-2 {
+    width: 50%;
+}
+
+.btn-konsultasi {
+    background-color: #216869;
+    padding: 15px;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+}
+
+.under-service {
+    display: flex;
+    margin-left: 10%;
+    padding-bottom: 5%;
+    gap: 20px;
+    color: white;
+}
+/* Akhir content */
+
+/* Layanan */
+#layanan {
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.wrapper-layanan {
+    display: flex;
+}
+
+.right > h3 {
+    font-size: 40pt;
+}
+
+.right > span {
+    color: #49A078;
+}
+
+.right > p {
+    font-size: 13pt;
+}
+
+.right > img {
+    margin-top: 2%;
+    width: 40px;
+}
+
+.right > img:hover {
+    cursor: pointer;
+    
+}
+
+.wrapper-card-layanan {
+    display: flex;
+    gap: 5%;
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+
+.card {
+    background-color: #49A078;
+    width: 500px;
+    color: white;
+    border-radius: 10px;
+}
+
+.card > img {
+    margin: 20px 0 20px 30px;
+}
+
+.card > h3 {
+    margin-left: 30px;
+    font-size: 25pt;
+}
+
+.card > p {
+    margin: 15px 30px 30px 30px;
+}
+/* Akhir layanan */
+
+/* Dokter Terbaik */
+#dokter-terbaik {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 7%;
+}
+
+#dokter-terbaik > h3, .text-dokter {
+    text-align: center;
+}
+
+#dokter-terbaik > h3 {
+    font-size: 35pt;
+    margin-bottom: 15px;
+}
+
+#dokter-terbaik > span {
+    color: #49A078;
+}
+
+#dokter-terbaik > .text-dokter {
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 80px;
+}
+
+.wrapper-dokter-terbaik {
+    display: flex;
+    gap: 150px;
+}
+
+.description-dokter > h4 {
+    margin-top: 50px;
+    font-size: 35pt;
+    margin-bottom: 10px;
+}
+
+.description-dokter > #role-dokter {
+    font-size: 15pt;
+    color: #49A078;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.description-dokter > #desc-dokter {
+    margin-right: 35%;
+    font-size: 13pt;
+}
+
+.btn-konsul-dokter {
+    background-color: #49A078;
+    padding: 10px;
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    margin-top: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+/* Akhir Dokter Terbaik */
+
+/* Form */
+#form {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+}
+/* Akhir Form */
+
+/* Footer */
+footer {
+    background-color: #49A078;
+    height: 25rem;
+}
+
+.wrapper-footer {
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    gap: 150px;
+}
+
+.wrapper-footer > img {
+    margin-top: 5%;
+    margin-right: 20%;
+}
+
+.wrapper-footer > h4{
+    margin-top: 5%;
+    color: white;
+    font-size: 14pt;
+}
+
+.wrapper-footer > p {
+    width: 550px;
+    color: white;
+    margin-top: 15px;
+    font-size: 12pt;
+}
+
+.wrapper-information {
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    margin-bottom: 4%;
+}
+
+.wrapper-information > p {
+    width: 400px;
+    margin-top: 15px;
+    color: white;
+    font-size: 13pt;
+}
+
+.wrapper-fitur {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    margin-left: 17.8%;
+}
+
+.wrapper-fitur > a {
+    color: white;
+    text-decoration: none;
+}
+
+.wrapper-kontak {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    gap: 20px;
+    margin-left: 6%;
+}
+
+.wrapper-kontak > p {
+    color: white;
+}
+
+.wrapper-kabar {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    gap: 20px;
+    margin-left: 4%;
+}
+
+.wrapper-kabar > p {
+    color: white;
+}
+
+.wrapper-copyright {
+    text-align: center;
+    color: white;
+}
+/* Akhir Footer */
