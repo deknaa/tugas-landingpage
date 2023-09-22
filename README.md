@@ -11,6 +11,7 @@ Tugas mengerjakan website landing page skilvul
 
 ## Logo LifeWell
 ![Logo](https://imgur.com/1G0qJq1.png)
+![Logo](https://imgur.com/95ntFcA.png)
 
 
 ## Color Reference
