@@ -12,9 +12,13 @@ header {
     color: white;
 }
 
-header > img {
+header > a {
     margin-left: 10%;
     margin-top: 20px;
+}
+
+header > img:hover{
+    cursor: pointer;
 }
 
 .wrapper-header {
@@ -29,9 +33,22 @@ ul {
     margin-top: 5%;
 }
 
+ul > li > a {
+    text-decoration: none;
+    color: white;
+}
+
+ul > li > a:hover {
+    color: #216869;
+}
+
 #link {
     text-decoration: none;
     color: white;
+}
+
+#link:hover {
+    color: #216869;
 }
 /* Akhir navbar */
 
@@ -264,6 +281,19 @@ form > h1 {
     background-color: #216869;
 }
 
+.reset-btn {
+    background-color: red;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 5px;
+}
+
+.reset-btn:hover {
+    cursor: pointer;
+    background-color: rgb(223, 35, 35);
+}
 
 /* Akhir Form */
 
